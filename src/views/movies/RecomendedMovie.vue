@@ -55,7 +55,7 @@ import _ from "lodash"
 import SSAFYRecommended from '@/components/SSAFYRecommended.vue'
 
 
-const serverURL = process.env.VUE_APP_MOVIES_URL
+const serverURL = "https://kgbros-django-server.herokuapp.com"
 
 export default {
   name:"RecomendedMovie",

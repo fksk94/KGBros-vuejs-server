@@ -31,7 +31,7 @@ import ImageItem from './ImageItem.vue'
 import axios from 'axios'
 
 
-const serverURL = process.env.VUE_APP_MOVIES_URL
+const serverURL = "https://kgbros-django-server.herokuapp.com"
 
 export default {
   name: 'MovieList',
