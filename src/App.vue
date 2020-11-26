@@ -12,6 +12,7 @@
           <router-link :to="{ name: 'MyListDetail' }"> 나의 리스트 </router-link> 
           <router-link :to="{ name: 'Community' }"> 게시판 </router-link>
           <router-link :to="{ name: 'RecomendedMovie' }"> 김구브라더스의 영화추천 </router-link>
+          <router-link :to="{ name: 'MyListApp' }"> 앱 다운로드 </router-link>
         </b-navbar-nav>
 
         <b-navbar-nav class="ml-auto" id="change-font">

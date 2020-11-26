@@ -6,6 +6,7 @@ import Login from '@/views/accounts/Login'
 import MovieDetail from '@/views/movies/MovieDetail'
 import MyListDetail from '@/views/movies/MyListDetail'
 import MyListEdit from '@/views/movies/MyListEdit'
+import MyListApp from '@/views/movies/MyListApp'
 import RecomendedMovie from '@/views/movies/RecomendedMovie'
 import Community from '@/views/community/Community'
 import CommunityForm from '@/views/community/CommunityForm'
@@ -42,6 +43,11 @@ const routes = [
     path: '/mylistedit/',
     name: 'MyListEdit',
     component: MyListEdit,
+  },
+  {
+    path: '/mylistapp/',
+    name: 'MyListApp',
+    component: MyListApp,
   },
   {
     path: '/recomendedmovie/',
