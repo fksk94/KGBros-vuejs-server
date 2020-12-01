@@ -12,6 +12,7 @@
 
 https://kgbros.netlify.app/
 
+※ 서버가 켜지는데 30초 정도 걸립니다.
 
 
 ## INDEX
